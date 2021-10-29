@@ -1,0 +1,25 @@
+{
+  "name": "paw-AuthSign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/AuthSign.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build/ && webpack --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nehzx/Paw-AuthSign.git"
+  },
+  "author": "徐振",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "crypto-js":"4.1.1",
+    "url-search-params-polyfill":"8.1.1"
+  }
+}
